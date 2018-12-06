@@ -4,6 +4,7 @@ The pipeline is divided into 5 steps in different folders. Each step can be excu
 
 Data preparation:
 Extract "house", "object", "room_wcf" folder under the path "./0-data/SUNCG/"
+The "room_wcf" data is here: https://drive.google.com/open?id=1RPF6YJsNNanNCBBRGAfDcNtuzLimrNVA .
 
 Step1. Load indoor scenes from SUNCG dataset and extract the object relations
 	run ./1-genSuncgDataset/main_gendata.m
