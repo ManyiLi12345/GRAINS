@@ -24,4 +24,3 @@ Step5. Reconstruct the generated indoor scenes
 	run ./5-reconVAE/main_recon.m
 
 For the code of each step, the data path and other configurations are set in util.m(or util.py).
-Each step has a README file for more details.
