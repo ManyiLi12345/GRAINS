@@ -1,4 +1,4 @@
-This code is for paper: XXXX.
+This code is for paper: GRAINS: Generative Recursive Autoencoders for INdoor Scenes.
 
 The pipeline is divided into 5 steps in different folders. Each step can be excuted independently.
 
