@@ -25,4 +25,4 @@ Step4. Prepare the training set and train/test the network
 Step5. Reconstruct the generated indoor scenes
 	run ./5-reconVAE/main_recon.m
 
-For the code of each step, the data path and other configurations are set in util.m(or util.py).
+At each step, make sure the correct data path and other parameters are set in util.m(or util.py).
