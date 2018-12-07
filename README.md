@@ -6,6 +6,8 @@ Data preparation:
 Extract "house", "object", "room_wcf" folder under the path "./0-data/SUNCG/"
 The "room_wcf" data is here: https://drive.google.com/open?id=1RPF6YJsNNanNCBBRGAfDcNtuzLimrNVA .
 
+Note: If you want to visualize the scenes in SUNCG dataset, download the dataset and agree to their terms, from http://suncg.cs.princeton.edu/.
+
 Step1. Load indoor scenes from SUNCG dataset and extract the object relations
 	run ./1-genSuncgDataset/main_gendata.m
 
