@@ -19,7 +19,7 @@ Step3. Transform the data representation with relative positions
 
 Step4. Prepare the training set and train/test the network
 	run ./4-genPytorchData/main_genprelpos_pydata.m
-	To train the network, run ./4-training/train.py
+	To train the network, run ./4-training/train.py.
 	To test the network, run ./4-training/test.py
 
 Step5. Reconstruct the generated indoor scenes
