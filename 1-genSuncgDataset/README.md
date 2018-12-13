@@ -5,6 +5,7 @@ The objects, which don't belong to one of the specified labelset, are removed fr
 
 You can specify the `roomtype`, `labelsetname`, `output_filename` in the file `util.m`.
 
+## Functions
 ```
 run ./1-genSuncgDataset/main_gendata.m
 ```

@@ -1,5 +1,7 @@
 # Reconstruct the scenes from generated hierarchies
 This folder is the code to reconstruct the 3D scenes from the generated hierarchies.
+
+## Functions
 ```
 run ./5-reconVAE/main_recon.m
 ```

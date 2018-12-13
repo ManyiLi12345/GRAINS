@@ -1,5 +1,7 @@
 # Prepare the training set
 This folder is the code to prepare the data for PyTorch training.
+
+## Functions
 ```
 run main_genprelpos_pydata.m
 ```
