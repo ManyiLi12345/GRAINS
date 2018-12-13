@@ -24,14 +24,14 @@ The output is saved in `./0-data/3-offsetrep`.
 The output is saved in `./0-data/4-pydata`.
 
 ## Training and Inference
-### training
+### Training
 	run ./4-training/train.py
 It loads the training set from `./0-data/4-pydata`. The trained model will be saved in `./0-data/models/`. You can download the pre-trained model [here](xxxx).
 
-### inference
+### Inference
 	run ./4-training/test.py
 It loads the trained model in `./0-data/models/` and randomly generate 1000 scenes. The output is a set of scenes represented as hierarchies, saved as `./0-data/4-pydata/generated_scenes.mat`.
 
 ## Reconstruct the generated indoor scenes
 	run ./5-reconVAE/main_recon.m
-It reconstruct the object OBBs in each scene from the generated hierarchy. The topview images are saved in `./0-data/5-generated_scenes/images/`.
+It reconstructs the object OBBs in each scene from the generated hierarchy. The topview images are saved in `./0-data/5-generated_scenes/images/`.
