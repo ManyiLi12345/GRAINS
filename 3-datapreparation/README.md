@@ -1,7 +1,7 @@
 # Transform the data representation with relative positions
 This folder is the code to generate our grains hierarchies with `relative positions` in `offset encoding representation`. 
 
-##Functions:
+## Functions
 1. transform the hierarchies into our scene representation:
 ```
 run main_genSUNCGdataset.m
