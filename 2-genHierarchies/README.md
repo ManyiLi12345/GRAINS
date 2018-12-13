@@ -9,9 +9,9 @@ This folder is the code to load the rooms with their relation graphs, and output
 
 ## Functions:
 1. build the hierarchies for the scenes
-
-	run main_buildhierarchies.m
-	
+```
+run main_buildhierarchies.m
+```	
 It outputs a dataset which is a list of the generated hierarchies. 
 The output is saved in folder `./0-data/2-hierarchies/`.
 
