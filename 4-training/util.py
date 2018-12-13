@@ -7,10 +7,10 @@ def get_args():
     parser = ArgumentParser(description=u'grains_pytorch')
     parser.add_argument(u'--box_code_size', type=int, default= 23)
     parser.add_argument(u'--feature_size', type=int, default=250)
-    parser.add_argument(u'--feature_size2', type=int, default=500)
+    parser.add_argument(u'--feature_size2', type=int, default=350)
     parser.add_argument(u'--relpos_size', type=int, default=28)
     parser.add_argument(u'--hidden_size', type=int, default=750)
-    parser.add_argument(u'--hidden_size2', type=int, default=1500)
+    parser.add_argument(u'--hidden_size2', type=int, default=1050)
     
 
     parser.add_argument(u'--epochs', type=int, default=500)

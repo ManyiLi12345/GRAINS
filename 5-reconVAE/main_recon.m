@@ -1,6 +1,6 @@
 clear;clc;
 util;
-VAEdata = load([data_folder, filesep, data_filename]);% load the generated data
+VAEdata = load([input_folder, filesep, data_filename]);% load the generated data
 
 tic
 dataset = {};

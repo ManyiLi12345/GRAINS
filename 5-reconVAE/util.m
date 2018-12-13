@@ -1,7 +1,8 @@
 data_filename = ['generated_scenes.mat'];
 
 %% params to be set
-data_folder = ['..', filesep, '0-data', filesep, '4-pydata'];
+data_folder = ['..', filesep, '0-data'];
+input_folder = [data_folder, filesep, '4-pydata']
 labelset_folder = [data_folder, filesep, 'labelsets'];
 output_folder = [data_folder, filesep, '5-generated_scenes'];
 output_obj_folder = [output_folder, filesep, 'recon'];
