@@ -17,5 +17,6 @@ The output is saved in folder `./0-data/2-hierarchies/`.
 
 2. hierarchy visualization
 For each element `data` in the generated dataset variable, use
-
-	printtree2( data.kids, data.labellist, NODETYPES, <filename>)
+```matlab
+printtree2( data.kids, data.labellist, NODETYPES, <filename>)
+```
