@@ -13,5 +13,5 @@ RELATIONS.SYMSUR_START = 10;
 
 %% here to specify the room type
 roomtype = 'Bedroom';
-labelsetname = [labelset_folder, filesep, 'bedroomlabelset.mat']; % coarse-grained labels
+labelsetname = [labelset_folder, filesep, 'bedroomlabelset.mat']; 
 output_filename = [output_folder, filesep, 'bedroom_graph.mat'];

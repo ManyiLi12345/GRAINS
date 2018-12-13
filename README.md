@@ -19,7 +19,7 @@ The output is saved in `./0-data/2-hierarchies`.
 	run ./3-datapreparation/main_genSUNCGdataset.m
 The output is saved in `./0-data/3-offsetrep`.
 
-### Step4. Prepare the training set and train/test the network
+### Step4. Prepare the training set
 	run ./4-genPytorchData/main_genprelpos_pydata.m
 The output is saved in `./0-data/4-pydata`.
 
@@ -35,3 +35,16 @@ It loads the trained model in `./0-data/models/` and randomly generate 1000 scen
 ## Reconstruct the generated indoor scenes
 	run ./5-reconVAE/main_recon.m
 It reconstructs the object OBBs in each scene from the generated hierarchy. The topview images are saved in `./0-data/5-generated_scenes/images/`.
+
+# Ciatition
+Please cite the paper if you use this code for research:
+
+@article{li2018grains,
+	title={GRAINS: Generative Recursive Autoencoders for Indoor Scenes}, 
+	author={Li, Manyi and Gadi Patil, Akshay and Xu, Kai and Chaudhuri, Siddhartha and Khan, Owais and Shamir, Ariel and Tu, Changhe and Chen, Baoquan and Cohen-Or, Daniel and Zhang, Hao}, 
+	journal={ACM Transactions on Graphics}, 
+	volume={},
+	number={}, 
+	year={},
+	publisher={ACM}
+}
