@@ -17,7 +17,7 @@ rplist_list = []
 kids_list=[]
 rootcode = []
 
-for n_scenes in xrange(10000): # how many scenes to be generated
+for n_scenes in xrange(1000): # how many scenes to be generated
   for i in xrange(1):
     test = Variable(torch.randn(1, config.feature_size2)).cuda()
     boxes, rplist, labellist = grainsmodel_vae.decode_structure(decoder, test)

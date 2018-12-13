@@ -37,9 +37,9 @@ for i = 1:length(dataset)
 catch
 end
     % save the object meshes in the scenes
-    scene_folder = [output_obj_folder, filesep, 'scene-', num2str(i)];
-    mkdir(scene_folder);
-    recon3dscene( rdata, scene_folder, 7, objfolder_path);
+    % scene_folder = [output_obj_folder, filesep, 'scene-', num2str(i)];
+    % mkdir(scene_folder);
+    % recon3dscene( rdata, scene_folder, 7, objfolder_path);
     rdataset{i} = rdata;
 end
 toc
