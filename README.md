@@ -39,7 +39,7 @@ It reconstructs the object OBBs in each scene from the generated hierarchy. The 
 # Ciatition
 Please cite the paper if you use this code for research:
 
-	
+```
 @article{li2018grains,
 title={GRAINS: Generative Recursive Autoencoders for Indoor Scenes}, 
 author={Li, Manyi and Gadi Patil, Akshay and Xu, Kai and Chaudhuri, Siddhartha and Khan, Owais and Shamir, Ariel and Tu, Changhe and Chen, Baoquan and Cohen-Or, Daniel and Zhang, Hao}, 
@@ -49,4 +49,4 @@ number={},
 year={},
 publisher={ACM}
 }
-	
+```
