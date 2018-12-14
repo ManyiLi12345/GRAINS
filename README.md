@@ -50,6 +50,9 @@ run ./5-reconVAE/main_recon.m
 ```
 It reconstructs the object OBBs in each scene from the generated hierarchy. The topview images are saved in `./0-data/5-generated_scenes/images/`.
 
+# Acknowledgement
+The training part of our code is adapted from the [PyTorch code of GRASS](https://github.com/kevin-kaixu/grass_pytorch).
+
 # Ciatition
 Please cite the paper if you use this code for research:
 
