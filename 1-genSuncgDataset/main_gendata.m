@@ -18,7 +18,7 @@ labelset = load(labelsetname); % 'entirelabelset.mat' is a list of all fine-grai
 labelset = labelset.labelset;
 
 %% process each scene(house)
-for i = 1:8000%length(scenelist)
+for i = 1:length(scenelist)
     scenename = scenelist{i};
     filename = [house_folder, filesep, scenename];
     filename = [filename, filesep, 'house.json'];
