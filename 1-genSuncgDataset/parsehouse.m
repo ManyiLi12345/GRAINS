@@ -1,4 +1,4 @@
-function [ roomlist ] = parsehouse( filename )
+function [ result ] = parsehouse( filename )
 
 % parse the rooms and their objects from a house.json file
 % INPUT: filename - the scene(house) name
