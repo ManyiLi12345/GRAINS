@@ -1,5 +1,5 @@
 # Prepare the training set
-This folder is the code to prepare the data for PyTorch training.
+This folder contains the code to prepare the data for PyTorch training.
 
 ## Functions
 ```
