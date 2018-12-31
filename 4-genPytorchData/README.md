@@ -2,8 +2,9 @@
 This folder contains the code to prepare the data for PyTorch training.
 
 ## Functions
+Run
 ```
-run main_genprelpos_pydata.m
+ main_genprelpos_pydata.m
 ```
 It generates the training data with our relative position format. 
 It outputs three files: `ops.mat`, `boxes.mat`, `relpos.mat`.
