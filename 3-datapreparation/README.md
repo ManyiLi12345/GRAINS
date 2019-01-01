@@ -3,8 +3,9 @@ This folder is the code to generate our grains hierarchies with `relative positi
 
 ## Functions
 1. transform the hierarchies into our scene representation:
+Run
 ```
-run main_genSUNCGdataset.m
+main_genSUNCGdataset.m
 ```
 It outputs a dataset which is a list of the scenes in our representation. 
 The output is saved in folder `./0-data/3-offsetrep/`.
