@@ -3,10 +3,10 @@
 This is the code for our paper "GRAINS: Generative Recursive Autoencoders for INdoor Scenes".
 
 ## Requirements
-The code has been tested on the following. To re-run our code, we recommend the following to work with:
-(a) Windows 10,
-(b) Python 2.7,
-(c) Pytorch 0.3, and 
+The code has been tested on the following. To re-run our code, we recommend the following to work with:<br />
+(a) Windows 10, <br/>
+(b) Python 2.7,<br />
+(c) Pytorch 0.3, and <br />
 (d) MATLAB (2017a)
 
 ## Data preparation
