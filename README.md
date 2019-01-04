@@ -2,6 +2,13 @@
 
 This is the code for our paper "GRAINS: Generative Recursive Autoencoders for INdoor Scenes".
 
+## Requirements
+The code has been tested on the following. To re-run our code, we recommend the following to work with:
+Windows 10
+Python 2.7
+Pytorch 0.3
+MATLAB (2017a)
+
 ## Data preparation
 We use indoor scenes represented as herarchies for the training. To create the training data, first donwload the [original SUNCG Dataset](http://suncg.cs.princeton.edu/) and extract `house`, `object`, `room_wcf` folder under the path `./0-data/SUNCG/`.
 
@@ -51,7 +58,7 @@ run ./5-reconVAE/main_recon.m
 It reconstructs the object OBBs in each scene from the generated hierarchy. The topview images are saved in `./0-data/5-generated_scenes/images/`.
 
 # Acknowledgement
-The training part of our code is adapted from the [PyTorch code of GRASS](https://github.com/kevin-kaixu/grass_pytorch).
+The training part of our code is built upon [GRASS](https://github.com/kevin-kaixu/grass_pytorch).
 
 # Ciatition
 Please cite the paper if you use this code for research:
