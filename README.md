@@ -4,10 +4,10 @@ This is the code for our paper "GRAINS: Generative Recursive Autoencoders for IN
 
 ## Requirements
 The code has been tested on the following. To re-run our code, we recommend the following to work with:
-Windows 10
-Python 2.7
-Pytorch 0.3
-MATLAB (2017a)
+(a) Windows 10,
+(b) Python 2.7,
+(c) Pytorch 0.3, and 
+(d) MATLAB (2017a)
 
 ## Data preparation
 We use indoor scenes represented as herarchies for the training. To create the training data, first donwload the [original SUNCG Dataset](http://suncg.cs.princeton.edu/) and extract `house`, `object`, `room_wcf` folder under the path `./0-data/SUNCG/`.
