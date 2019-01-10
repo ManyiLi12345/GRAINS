@@ -7,7 +7,7 @@ The code has been tested on the following. To re-run our code, we recommend the 
 (a) Windows 10, <br/>
 (b) Python 2.7,<br />
 (c) Pytorch 0.3.1, and <br />
-(d) MATLAB (2017a)
+(d) MATLAB (>2017a)
 
 ## Data preparation
 We use indoor scenes represented as herarchies for the training. To create the training data, first donwload the [original SUNCG Dataset](http://suncg.cs.princeton.edu/) and extract `house`, `object`, `room_wcf` folder under the path `./0-data/SUNCG/`.
