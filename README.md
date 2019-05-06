@@ -6,8 +6,8 @@ Project website [here](https://manyili12345.github.io/Publication/2018/GRAINS/in
 ## Requirements
 The code has been tested on the following. To re-run our code, we recommend the below softwares/tools to work with:<br />
 (a) Windows 10, <br/>
-(b) Python 2.7,<br />
-(c) Pytorch 0.3.1, and <br />
+(b) Python 2.7 and Pytorch 0.3.1,<br />
+(c) Python 3.6 and Pytorch 1.0, and <br />
 (d) MATLAB (>2017a)
 
 ## Data preparation
