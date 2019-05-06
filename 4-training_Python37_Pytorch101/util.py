@@ -14,7 +14,7 @@ def get_args():
     
 
     parser.add_argument(u'--epochs', type=int, default=500)
-    parser.add_argument(u'--batch_size', type=int, default= 2000)
+    parser.add_argument(u'--batch_size', type=int, default= 20)
     parser.add_argument(u'--show_log_every', type=int, default=2)
     parser.add_argument(u'--save_log', action=u'store_true', default=False)
     parser.add_argument(u'--save_log_every', type=int, default=3)
