@@ -9,6 +9,15 @@ The code has been tested on the following. To re-run our code, we recommend the 
 (b) Python 3.6/3.7 and Pytorch >1.0, and <br />
 (c) MATLAB (>2017a)
 
+The best way is to install the latest Python and Pytorch versions is via Anaconda.
+1) Download your version (depending on your OS) of anaconda from [here](https://www.anaconda.com/distribution/).
+2) Make sure your conda is setup properly. This is how you do it: $export PATH="............./anaconda3/bin:$PATH".
+3) Then, "$conda" should not throw any error.
+4) Create a virtual environment called "GRAINS". $conda create --name GRAINS
+5) Activate your virtual env: $source activate GRAINS.
+
+You are now setup with the working environments.
+
 ## Data preparation
 We use indoor scenes represented as herarchies for the training. To create the training data, first download the [original SUNCG Dataset](http://suncg.cs.princeton.edu/) and extract `house`, `object`, `room_wcf` folder under the path `./0-data/SUNCG/`.
 
