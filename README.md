@@ -91,13 +91,14 @@ The training part of our code is built upon [GRASS](https://github.com/kevin-kai
 Please cite the paper if you use this code for research:
 
 ```
-@article{li2018grains,
-title={GRAINS: Generative Recursive Autoencoders for Indoor Scenes}, 
-author={Li, Manyi and Gadi Patil, Akshay and Xu, Kai and Chaudhuri, Siddhartha and Khan, Owais and Shamir, Ariel and Tu, Changhe and Chen, Baoquan and Cohen-Or, Daniel and Zhang, Hao}, 
-journal={ACM Transactions on Graphics}, 
-volume={},
-number={}, 
-year={},
-publisher={ACM}
+@article{li2019grains,
+  title={Grains: Generative recursive autoencoders for indoor scenes},
+  author={Li, Manyi and Patil, Akshay Gadi and Xu, Kai and Chaudhuri, Siddhartha and Khan, Owais and Shamir, Ariel and Tu, Changhe and     Chen, Baoquan and Cohen-Or, Daniel and Zhang, Hao},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={38},
+  number={2},
+  pages={12},
+  year={2019},
+  publisher={ACM}
 }
 ```
