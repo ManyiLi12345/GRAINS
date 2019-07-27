@@ -37,6 +37,8 @@ git clone https://github.com/ManyiLi12345/GRAINS.git
 ```
 
 ## Data preparation
+There is an ongoing legal dispute with using the training dataset made use of in our work. Follow the below at your own risk.
+
 We use indoor scenes represented as herarchies for the training. To create the training data, first download the [original SUNCG Dataset](http://suncg.cs.princeton.edu/) and extract `house`, `object`, `room_wcf` folder under the path `./0-data/SUNCG/`.
 
 The `room_wcf` data is [here](https://drive.google.com/open?id=1RPF6YJsNNanNCBBRGAfDcNtuzLimrNVA)
