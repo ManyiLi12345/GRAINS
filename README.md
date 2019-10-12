@@ -1,7 +1,7 @@
 # GRAINS: Generative Recursive Autoencoders for INdoor Scenes
 
 This is the code for our paper "GRAINS: Generative Recursive Autoencoders for INdoor Scenes".<br/>
-Project website [here](https://manyili12345.github.io/Publication/2018/GRAINS/index.html). 
+Project webpage [here](https://manyili12345.github.io/Publication/2018/GRAINS/index.html). 
 
 ## Requirements
 The code has been tested on the following. To re-run our code, we recommend the below softwares/tools to work with:<br />
