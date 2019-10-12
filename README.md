@@ -88,7 +88,7 @@ It reconstructs the object OBBs in each scene from the generated hierarchy. The 
 # Acknowledgement
 The training part of our code is built upon [GRASS](https://github.com/kevin-kaixu/grass_pytorch).
 
-# Ciatition
+# Citation
 Please cite the paper if you use this code for research:
 
 ```
