@@ -2,10 +2,11 @@ function recon3dscene( rdata, output_folder, sizescale, objfolder_path )
 % output_folder = 'scene3';
 %%
 % Get the body of the csv file. This csv file has all the catogeries
-[model_category_title, model_category_body ] = read_csv('models.csv'); % read the body and titles of the csv file
-model_id = model_category_body(:,1);
-model_front = model_category_body(:,2);
-
+% [model_category_title, model_category_body ] = read_csv('models.csv'); % read the body and titles of the csv file
+% model_id = model_category_body(:,1);
+% model_front = model_category_body(:,2);
+Models = load('../0-data/Models.mat');
+Models = Models.Models;
 %% get the obj file from the folder
 for i = 1:length(rdata.id_list)
     folder = rdata.id_list{i};
@@ -43,8 +44,9 @@ for i = 1:length(rdata.id_list)
         gaxes = gaxes/norm(gaxes,2);
         sizes = rdata.obblist(10:12,i);
         
-        ind = strmatch(rdata.id_list{i},model_id,'exact');
-        lfront = str2num(model_front{ind});
+        %ind = strmatch(rdata.id_list{i},model_id,'exact');
+        %lfront = str2num(model_front{ind});
+        lfront = Models(rdata.id_list{i}).front;
         lup = [0;1;0];
         laxes = cross(lfront,lup);
         laxes = laxes/norm(laxes,2);
