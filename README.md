@@ -43,7 +43,7 @@ We use indoor scenes represented as herarchies for the training. To create the t
 
 ```diff
 - Update: Because of the SUNCG dataset problem, we provide the data format definition and a sample file which can be visualized with this script.
-'''
+```
 
 ### Step1. Load indoor scenes from SUNCG dataset and extract the object relations
 ```
