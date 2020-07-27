@@ -1,2 +1,8 @@
 Data format definition for the file "room_wcf.zip":
-For each scene in the SUNCG dataset, we extract the floors, walls, ceilings of each room as bounding boxes and save the .mat files named as Room#x_x.mat. Each .mat file has four variables: label_list, obb_list, room_name, scene_name. Each object has a label string saved in the label_list and 9D vector bounding box saved in obb_list. The vector concatenates the center position (3D), front orientation (3D), sizes in its own frame (3d). Note that SUNCG dataset provides two objects (inner wall and outer wall) for each wall. So similarly, we have two objects for each wall.
+
+For each scene in the SUNCG dataset, we extract the floors, walls, ceilings of each room as bounding boxes and save the .mat files named as Room#x_x.mat. 
+Each .mat file has four variables: label_list, obb_list, room_name, scene_name. 
+Each object has a label string saved in the label_list and 9D vector bounding box saved in obb_list. 
+The vector concatenates the center position (3D), front orientation (3D), sizes in its own frame (3d). 
+
+Note that SUNCG dataset provides two objects (inner wall and outer wall) for each wall. So similarly, we have two objects for each wall.
