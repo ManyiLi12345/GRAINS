@@ -3,6 +3,8 @@
 This is the code for our paper "GRAINS: Generative Recursive Autoencoders for INdoor Scenes".<br/>
 Project webpage [here](https://manyili12345.github.io/Publication/2018/GRAINS/index.html). 
 
+##### Update: Because of the SUNCG dataset problem, we have removed the pretraned models and the room_wcf data file. Here we provide the [data format definition](https://github.com/ManyiLi12345/GRAINS/blob/master/data_format_definition.txt) for the room_wcf file used in our code and [a sample file](https://github.com/ManyiLi12345/GRAINS/blob/master/0-data/room_wcf_for_00a9efc8d6dcc489ea8f67b2fe486b03.zip) which can be visualized with [this script](https://github.com/ManyiLi12345/GRAINS/blob/master/vistools/vis_wcf.m). Please follow this format to create your own room_wcf file from other indoor scene dataset to use our code.
+
 ## Requirements
 The code has been tested on the following. To re-run our code, we recommend the below softwares/tools to work with:<br />
 (a) Python 2.7 and Pytorch 0.3.1, OR<br /> 
@@ -40,8 +42,6 @@ git clone https://github.com/ManyiLi12345/GRAINS.git
 There is an ongoing legal dispute with using the training dataset made use of in our work. Follow the below at your own risk.
 
 We use indoor scenes represented as herarchies for the training. To create the training data, first download the [original Dataset](http://suncg.cs.princeton.edu/) and extract `house`, `object`, `room_wcf` folder under the path `./0-data/SUNCG/`.
-
-##### Update: Because of the SUNCG dataset problem, we provide the [data format definition](https://github.com/ManyiLi12345/GRAINS/blob/master/data_format_definition.txt) and [a sample file](https://github.com/ManyiLi12345/GRAINS/blob/master/0-data/room_wcf_for_00a9efc8d6dcc489ea8f67b2fe486b03.zip) which can be visualized with [this script](https://github.com/ManyiLi12345/GRAINS/blob/master/vistools/vis_wcf.m).
 
 ### Step1. Load indoor scenes from SUNCG dataset and extract the object relations
 ```
