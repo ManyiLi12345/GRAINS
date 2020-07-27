@@ -41,7 +41,7 @@ There is an ongoing legal dispute with using the training dataset made use of in
 
 We use indoor scenes represented as herarchies for the training. To create the training data, first download the [original Dataset](http://suncg.cs.princeton.edu/) and extract `house`, `object`, `room_wcf` folder under the path `./0-data/SUNCG/`.
 
-#####- Update: Because of the SUNCG dataset problem, we provide the data format definition and a sample file which can be visualized with this script.
+##### Update: Because of the SUNCG dataset problem, we provide the data format definition and a sample file which can be visualized with this script.
 
 ### Step1. Load indoor scenes from SUNCG dataset and extract the object relations
 ```
