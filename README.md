@@ -72,7 +72,7 @@ The output is saved in `./0-data/4-pydata`.
 ```
 run ./4-training/train.py
 ```
-It loads the training set from `./0-data/4-pydata`. The trained model will be saved in `./0-data/models/`. You can download the pre-trained model [here](xxxx).
+It loads the training set from `./0-data/4-pydata`. The trained model will be saved in `./0-data/models/`. 
 
 ### Inference
 ```
