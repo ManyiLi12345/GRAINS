@@ -48,6 +48,8 @@ if config.cuda:
     
 print("Loading data ...... ")
 grains_data = GRAINSDataset(config.data_path)
+config.batch_size = int(grains_data.__len__()*0.1)
+print('batch_size:', config.batch_size)
 def my_collate(batch):
     return batch
 

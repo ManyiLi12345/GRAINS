@@ -14,7 +14,6 @@ def get_args():
     
 
     parser.add_argument(u'--epochs', type=int, default=500)
-    parser.add_argument(u'--batch_size', type=int, default= 20)
     parser.add_argument(u'--show_log_every', type=int, default=2)
     parser.add_argument(u'--save_log', action=u'store_true', default=False)
     parser.add_argument(u'--save_log_every', type=int, default=3)
@@ -22,13 +21,13 @@ def get_args():
     parser.add_argument(u'--save_snapshot_every', type=int, default=5)
     parser.add_argument(u'--save_network_every', type=int, default=10)
     parser.add_argument(u'--no_plot', action=u'store_true', default=False)
-    parser.add_argument(u'--lr', type=float, default=0.001)
+    parser.add_argument(u'--lr', type=float, default=0.0005)
     parser.add_argument(u'--lr_decay_by', type=float, default=1)
     parser.add_argument(u'--lr_decay_every', type=float, default=1)
 
     parser.add_argument(u'--no_cuda', action=u'store_true', default=False)
-    parser.add_argument(u'--gpu', type=int, default=1)
-    parser.add_argument(u'--data_path', default=u'data')
+    parser.add_argument(u'--gpu', type=int, default=0)
+    parser.add_argument(u'--data_path', default=u'../0-data/4-pydata/')
     parser.add_argument(u'--save_path', default=u'models')
     parser.add_argument(u'--resume_snapshot', type=str, default=u'')
     args = parser.parse_args()

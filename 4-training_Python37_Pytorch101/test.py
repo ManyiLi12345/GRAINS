@@ -32,4 +32,4 @@ for n_scenes in range(1000): # how many scenes to be generated
     rplist_list.append(rplist)
     kids_list.append(labellist)
 	
-sio.savemat(config.data_path + u'/generated_scenes_400.mat',{u'boxes':boxes_list, u'rplist':rplist_list, u'kids':kids_list, u'rootcode':rootcode})
+sio.savemat(config.data_path + u'/generated_scenes.mat',{u'boxes':boxes_list, u'rplist':rplist_list, u'kids':kids_list, u'rootcode':rootcode})
