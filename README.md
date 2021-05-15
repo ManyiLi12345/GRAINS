@@ -3,7 +3,9 @@
 This is the code for our paper "GRAINS: Generative Recursive Autoencoders for INdoor Scenes".<br/>
 Project webpage [here](https://manyili12345.github.io/Publication/2018/GRAINS/index.html). 
 
-##### Update: Because of the SUNCG dataset problem, we have removed the pretraned models and the room_wcf data file. Here we provide the [data format definition](https://github.com/ManyiLi12345/GRAINS/blob/master/data_format_definition.txt) for the room_wcf file used in our code and [a sample file](https://github.com/ManyiLi12345/GRAINS/blob/master/0-data/room_wcf_for_00a9efc8d6dcc489ea8f67b2fe486b03.zip) which can be visualized with [this script](https://github.com/ManyiLi12345/GRAINS/blob/master/vistools/vis_wcf.m). Please follow this format to create your own room_wcf file from other indoor scene dataset to use our code.
+##### Update: 
+(1) Because of the SUNCG dataset problem, we have removed the pretraned models and the room_wcf data file. Here we provide the [data format definition](https://github.com/ManyiLi12345/GRAINS/blob/master/data_format_definition.txt) for the room_wcf file used in our code and [a sample file](https://github.com/ManyiLi12345/GRAINS/blob/master/0-data/room_wcf_for_00a9efc8d6dcc489ea8f67b2fe486b03.zip) which can be visualized with [this script](https://github.com/ManyiLi12345/GRAINS/blob/master/vistools/vis_wcf.m). Please follow this format to create your own room_wcf file from other indoor scene dataset to use our code.
+(2) We have updated the training code to automatically tune the batch size based on the training set. As said in our paper, it works well with batch size being about 1/10 of the training set size. A too small batch size will cause model collapse and loss jumping, then the generated scenes are mostly the same with each other and not plausible.
 
 ## Requirements
 The code has been tested on the following. To re-run our code, we recommend the below softwares/tools to work with:<br />
