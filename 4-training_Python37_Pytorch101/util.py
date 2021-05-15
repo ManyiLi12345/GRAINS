@@ -21,7 +21,7 @@ def get_args():
     parser.add_argument(u'--save_snapshot_every', type=int, default=5)
     parser.add_argument(u'--save_network_every', type=int, default=10)
     parser.add_argument(u'--no_plot', action=u'store_true', default=False)
-    parser.add_argument(u'--lr', type=float, default=0.0005)
+    parser.add_argument(u'--lr', type=float, default=0.001)
     parser.add_argument(u'--lr_decay_by', type=float, default=1)
     parser.add_argument(u'--lr_decay_every', type=float, default=1)
 
